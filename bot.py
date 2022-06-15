@@ -15,6 +15,7 @@ def start():
     while user_input != "exit":
         if user_input == "clear":
             clear()
+            user_input = input("You: ")
         elif user_input == "help":
             help.fn()
             user_input = input("You: ")
